@@ -1,0 +1,26 @@
+/* 
+------------------------------------------------------------------------
+Create DataBase and Scehma
+------------------------------------------------------------------------
+here we wile create database for project this name "datawarehouse"
+then use database after this we while create schema for all layer "Bronze","Silver","Gold" 
+*/
+
+-- Create the Data Warehouse database
+CREATE DATABASE DataWarehouse;
+GO
+
+-- Switch to the newly created database
+USE DataWarehouse;
+GO
+
+-- Create Bronze layer schema 
+CREATE SCHEMA Bronze;
+GO
+
+-- Create Silver layer schema 
+CREATE SCHEMA Silver;
+GO
+
+-- Create Gold layer schema 
+CREATE SCHEMA Gold;
